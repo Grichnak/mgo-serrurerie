@@ -1,0 +1,84 @@
+.pricesSection {
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.pricesContainer {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row; /* Adjust this as needed, could be column for smaller screens */
+  justify-content: center;
+  gap: 10rem;
+  width: 100%;
+  padding: 35px 20px; /* Add some padding around the contents */
+  box-sizing: border-box; /* Ensure padding does not affect the overall dimensions */
+}
+
+.pricesTitle {
+  color: #e57e31;
+  font-size: 95px;
+  padding-bottom: 40px;
+}
+
+.pricesTitleText {
+  color: #e57e31;
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+
+.priceBox {
+  border: solid 2px #e57e31;
+  border-radius: 25px;
+  background-color: black;
+  width: 350px;
+  max-width: 30%;
+  padding: 40px; /* Increased padding for the content inside */
+  box-sizing: border-box;
+}
+
+.priceTitle,
+.priceText {
+  padding: 0 10px; /* Adjust as needed, adds padding on the sides */
+  box-sizing: border-box;
+}
+
+.priceText {
+  padding-top: 3rem;
+  font-size: 70px;
+}
+
+.priceComment {
+  padding-top: 25px;
+}
+
+.otherContainer {
+  width: 50%;
+  margin: 35px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: solid #e57e31;
+}
+
+.otherTitle {
+  padding: 25px;
+  font-size: 50px;
+}
+
+.otherText {
+  width: 75%;
+  padding-bottom: 25px;
+}
+
+.otherList {
+  padding: 5px;
+}
+
+li {
+  padding: 5px;
+}

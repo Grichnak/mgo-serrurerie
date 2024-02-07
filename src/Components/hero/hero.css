@@ -1,0 +1,60 @@
+.heroSection {
+  display: flex;
+  flex-direction: row; /* Adjust this as needed, could be column for smaller screens */
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  width: 100vw;
+  height: calc(100vh - 10rem);
+  background: #3e2c1a;
+  padding: 20px; /* Add some padding around the contents */
+  box-sizing: border-box; /* Ensure padding does not affect the overall dimensions */
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  color: whitesmoke;
+}
+
+.introBox {
+  text-align: center;
+  padding: 50px;
+}
+
+.title {
+  font-size: 50px;
+  padding: 30px;
+}
+
+.intro {
+  font-size: 20px;
+  padding: 30px;
+}
+
+.introContactButton {
+  background-color: #e57e31; /* Green */
+  border: none;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.introContactButton:hover {
+  filter: brightness(90%);
+  background: #c66928; /* Darker shade for hover */
+}
+
+.img {
+  max-width: 50%; /* Ensure the image does not take more than half the width */
+  max-height: 100%; /* Ensure the image does not exceed the section's height */
+  object-fit: cover; /* Adjust how the image fits within its box, could also use contain based on preference */
+}
