@@ -51,6 +51,17 @@ const Navbar = () => {
         >
           Contact
         </Link>
+        <Link
+          activeClass="active"
+          to="faq"
+          spy={true}
+          smooth={true}
+          offset={-160}
+          duration={500}
+          className="navMenuList"
+        >
+          F.A.Q.
+        </Link>
       </div>
     </nav>
   );

@@ -53,6 +53,7 @@
 
 .priceComment {
   padding-top: 25px;
+  text-wrap: balance;
 }
 
 .otherContainer {

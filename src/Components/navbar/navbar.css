@@ -17,7 +17,7 @@
 .navMenu {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 32%;
 }
 
 .navMenuList {
@@ -26,7 +26,7 @@
   border-radius: 19px;
   display: flex;
   justify-content: center;
-  padding: 10px 50px;
+  padding: 10px 40px;
   padding-top: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
