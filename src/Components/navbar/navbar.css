@@ -58,6 +58,7 @@
 
   .navbar {
     justify-content: center; /* Center the logo when the menu is hidden */
+    position: static;
   }
 
   .logo {
