@@ -83,3 +83,32 @@
 li {
   padding: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .priceBox {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .pricesContainer {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .pricesTitle {
+    font-size: 75px;
+    width: 50%;
+  }
+
+  .pricesTitleText {
+    width: 75%;
+  }
+
+  .otherContainer {
+    width: 75%;
+  }
+
+  .otherTitle {
+    font-size: 30px;
+  }
+}

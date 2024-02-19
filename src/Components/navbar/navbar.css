@@ -49,3 +49,18 @@
 .logo {
   width: 20%;
 }
+
+@media screen and (max-width: 768px) {
+  .navMenu,
+  .cadenas {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: center; /* Center the logo when the menu is hidden */
+  }
+
+  .logo {
+    width: 75%; /* Adjust the logo size for mobile devices if needed */
+  }
+}
