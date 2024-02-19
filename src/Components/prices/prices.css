@@ -101,7 +101,9 @@ li {
   }
 
   .priceText {
-    padding: 1rem 0 0 5rem;
+    padding: 1rem;
+    left: 10%;
+    position: relative;
   }
 
   .pricesTitleText {
