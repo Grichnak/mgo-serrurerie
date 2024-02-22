@@ -8,16 +8,30 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // On récupère les valeurs des champs
+    const userName = form.current.user_name.value;
+    const userEmail = form.current.user_email.value;
+    const message = form.current.message.value;
+
+    // Alerte si les champs sont vides
+    if (!userName || !userEmail || !message) {
+      alert("Veuillez remplir tous les champs avant d'envoyer l'e-mail.");
+      return;
+    }
+
     emailjs
       .sendForm('service_f20oqj4', 'template_gzco2zv', form.current, {
         publicKey: 'IGmNqpNcObhBQqieJ',
       })
       .then(
-        () => {
-          console.log('SUCCESS!');
+        (result) => {
+          console.log(result.text);
+          e.target.reset();
+          alert('Email envoyé !');
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log(error.text);
+          alert("Une erreur s'est produite lors de l'envoi de l'e-mail.");
         }
       );
   };
