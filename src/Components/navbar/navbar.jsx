@@ -2,7 +2,7 @@ import React from 'react';
 import './navbar.css';
 import { Link } from 'react-scroll';
 import Lottie from 'lottie-react';
-import lockAnimation from '/Projets/MGO Serrurerie/mgo-serrurerie/src/Assets/lock-animation.json';
+import lockAnimation from '../../Assets/lock-animation.json';
 import logo from '../../Assets/logo.jpg';
 
 const Navbar = () => {
