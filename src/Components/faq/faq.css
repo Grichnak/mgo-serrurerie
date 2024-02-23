@@ -29,3 +29,14 @@
 .questionText {
   padding: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .faqSection {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .questionBox {
+    width: 100%;
+  }
+}
