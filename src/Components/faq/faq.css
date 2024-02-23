@@ -33,10 +33,11 @@
 @media screen and (max-width: 768px) {
   .faqSection {
     flex-direction: column;
-    width: 100%;
+    width: 95%;
   }
 
   .questionBox {
     width: 100%;
+    padding: 0.5rem;
   }
 }

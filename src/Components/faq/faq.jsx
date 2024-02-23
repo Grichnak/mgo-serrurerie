@@ -8,7 +8,7 @@ const Faq = () => {
       <div className="faqSection">
         <div className="questionBox">
           <h2 className="questionTitle">
-            Les prix sont ils connus à l'avance ?
+            Les prix sont-ils connus à l'avance ?
           </h2>
           <p className="questionText">
             Oui, nous faisons obligatoirement un devis avant chaque
@@ -19,7 +19,7 @@ const Faq = () => {
           </p>
         </div>
         <div className="questionBox">
-          <h2 className="questionTitle">Le Déplacement est il payant ?</h2>
+          <h2 className="questionTitle">Le déplacement est-il payant ?</h2>
           <p className="questionText">
             Le déplacement est inclus dans chaque intervention. Il sera
             uniquement facturé si notre artisan se déplace et que la prestation
@@ -27,23 +27,25 @@ const Faq = () => {
           </p>
         </div>
         <div className="questionBox">
-          <h2 className="questionTitle">Les devis sont il payant ?</h2>
+          <h2 className="questionTitle">Les devis sont-il payants ?</h2>
           <p className="questionText">
             Non, les devis sont totalement gratuits.
           </p>
         </div>
         <div className="questionBox">
-          <h2 className="questionTitle">Dans quelle zone nous intervenons ?</h2>
+          <h2 className="questionTitle">
+            Quelle est notre zone d'intervention ?
+          </h2>
           <p className="questionText">
-            Nous pouvons intervenir en majorité dans le Val d'Oise et l'Oise,
-            mais aussi en île de France .
+            Nous intervenons en majorité dans le Val d'Oise et l'Oise, mais nous
+            pouvons aussi intervenir en Île-de-France.
           </p>
         </div>
         <div className="questionBox">
           <h2 className="questionTitle">Je reçois une facture ?</h2>
           <p className="questionText">
             Oui, chaque intervention ou dépannage donne lieu à un devis puis une
-            facture peu importe le montant de l'intervention.
+            facture, peu importe le montant de l'intervention.
           </p>
         </div>
       </div>
