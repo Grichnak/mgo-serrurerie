@@ -1,0 +1,31 @@
+#faq {
+  background: #1a1a1a;
+  color: whitesmoke;
+}
+
+.faqTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: xx-large;
+}
+
+.faqSection {
+  display: flex;
+  width: 100%;
+}
+
+.questionBox {
+  width: 18%;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.questionTitle {
+  padding: 1rem;
+}
+
+.questionText {
+  padding: 1rem;
+}

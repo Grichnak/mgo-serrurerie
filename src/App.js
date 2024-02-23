@@ -4,6 +4,8 @@ import Hero from './Components/hero/hero';
 import Prices from './Components/prices/prices';
 import Footer from './Components/footer/footer';
 import Contact from './Components/contact/contact';
+import Faq from './Components/faq/faq';
+
 import './App.css';
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
       <Hero />
       <Prices />
       <Contact />
+      <Faq />
       <Footer />
     </div>
   );
