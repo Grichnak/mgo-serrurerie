@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
         </div>
         <a href="tel:06 84 80 37 11 " style={{ textDecoration: 'none' }}>
-          <button className="introContactButton">Contactez-nous</button>
+          <button className="introContactButton">Appelez-nous</button>
         </a>
       </div>
 

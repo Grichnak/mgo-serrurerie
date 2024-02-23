@@ -71,4 +71,8 @@
   .intro-section {
     max-width: 100%;
   }
+
+  .heroSection {
+    height: auto;
+  }
 }
